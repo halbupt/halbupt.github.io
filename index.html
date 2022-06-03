@@ -17,32 +17,35 @@
                 -webkit-text-size-adjust: none;
             }
         }
-        p { font-size : 16px; }
+        p { font-size : 15px; }
         h1 { font-size : 34px; margin : 0; padding : 0; }
         h2 { font-size : 20px; margin : 0; padding : 0; }
         h3 { font-size : 18px; margin : 8; padding : 0; }
-        body { padding : 0; font-family : Arial; font-size : 16px; background-color : #cbcbcb; }
+        /* body { padding : 0; font-family : Arial; font-size : 16px; background-color : #cbcbcb; } */
+        body { padding : 0; font-family : Gill Sans MT; font-size : 16px; background-color : #cbcbcb; }
 
         .title{width: 720px; margin: 40px auto; }
-        #photo{padding: 20px 60px; float: left;}
+        #photo{padding: 30px 60px; float: left;}
         #bio{padding: 20px;}
         
 
         .block{width: 720px; margin: 20px auto; }
         .logo-block{margin-top: 40px;}
         .logo{width: 80px; float: left; margin-right: 30px;}
-        .note{margin: 10px 0;}
+        .note{margin: 10px 0; font-size : 15px;}
         .block-border{padding: 30px; background-color: #fff; border-radius: 25px }
+        .paper-title{font-size: 17px; color:darkblue}
+        .paper{margin-bottom: 15px;}
 
     </style>
 </head>
 <body>
     <div class="title block-border">
         <div id="photo">
-            <img src="./img/zhaolin_white.jpg" alt="my photo" width="225px">
+            <img src="./img/zhaolin.jpg" alt="my photo" width="250px">
         </div>
         <div id="bio">
-            <h1 style="line-height: 65px;">
+            <h1 style="line-height: 50px;">
                 Zhaolin Wang 
                 <span style="font-size: 20px;">
                     <strong>王照霖</strong>
@@ -59,15 +62,28 @@
                 PhD Candidate<br/>
                 Queen Mary University of London <br/>
                 Office: CS335, Peter Landin Building <br/>
-                Email: zhaolin.wang@qmul.ac.uk <br/>
+                E: <a href="mailto: zhaolin.wang@qmul.ac.uk">zhaolin.wang@qmul.ac.uk</a> <br/>
             </p>
             <span>
+                <a href="https://scholar.google.com/citations?user=86LiyOsAAAAJ&hl=en">Google Scholar</a>,
+                <a href="https://www.researchgate.net/profile/Zhaolin-Wang-7">ResearchGate</a>,
                 <a href="https://www.linkedin.com/in/zhaolin-wang-78ab91183/">LinkedIn</a>
             </span>
         </div>
     </div>
 
     <div class="block block-border">
+        <h2 style="color: #047eb0;">Education</h2>
+
+        <ul>
+            <li class="note">Ph.D., Queen Mary University of London (Sep. 2020 – present)</li>
+            <li class="note">M.S., Imperial College London (Oct. 2020 – Oct. 2021) </li>
+            <li class="note">B.S(Eng)., Beijing University of Posts and Telecommunications (Sep. 2016 – May. 2020)</li>
+            <li class="note">B.S(Eng)., Queen Mary University of London (Sep. 2016 – May. 2020)</li>
+        </ul>
+    </div>
+
+    <!-- <div class="block block-border">
         <h2 style="color: #047eb0;">About</h2>
         <p>
             Zhaolin Wang is a PhD candidate at the School of EECS, Queen Mary University of London under the supervision of 
@@ -80,12 +96,13 @@
             in 2020 and received the MS degree with Distinction from Imperial College London in 2021.
         </p>
 
-    </div>
+    </div> -->
 
     <div class="block block-border">
         <h2 style="color: #047eb0;">Recent News</h2>
         
-        <p>
+        <p style="margin-left: 30px;">
+            <b>[Aug. 24th 2022]</b> Awarded the <a href="./img/ICC_STG_2022.pdf">Student Travel Grant</a> for the IEEE ICC 2022 <br/><br/>
             <b>[Nov. 1st 2021]</b> Awarded MSc with Distinction, Imperial College London <br/><br/>
             <b>[Sep. 20th 2021]</b> Join <a href="http://csr.eecs.qmul.ac.uk/">Communication Systems Research Group</a> at QMUL as a PhD student <br/><br/>
             <b>[Aug. 17th 2021]</b> Awarded EECS Fee Waiver, Queen Mary University of London <br/><br/>
@@ -95,14 +112,41 @@
     </div>
 
     <div class="block block-border">
-        <h2 style="color: #047eb0;">Education</h2>
-
+        <h2 style="color: #047eb0;">Publications</h2>
+        
+        <!-- <span>NOMA Empowered Integrated Sensing and Communication</span> -->
         <ul>
-            <li class="note">Ph.D., Queen Mary University of London (Sep. 2020 – present)</li>
-            <li class="note">M.S., Imperial College London (Oct. 2020 – Oct. 2021) </li>
-            <li class="note">B.S(Eng)., Beijing University of Posts and Telecommunications (Sep. 2016 – May. 2020)</li>
-            <li class="note">B.S(Eng)., Queen Mary University of London (Sep. 2016 – May. 2020)</li>
+            <li class="paper">
+                <span class="paper-title">NOMA for Integrating Sensing and Communications towards 6G: A Multiple Access Perspective</span> <br/>
+                Xidong Mu, <b>Zhaolin Wang</b>, Yuanwei Liu <br/>
+                arXiv preprint arXiv:2206.00377
+            </li>
+        
+            <li class="paper">
+                <span class="paper-title">NOMA-aided Joint Communication, Sensing, and Multi-tier Computing Systems</span> <br/>
+                <b>Zhaolin Wang</b>, Xidong Mu, Yuanwei Liu, Xiaodong Xu, Ping Zhang <br/>
+                arXiv preprint arXiv:2205.08272
+            </li>
+  
+            <li class="paper">
+                <span class="paper-title">NOMA Inspired Integrated Sensing and Communication</span> <br/>
+                <b>Zhaolin Wang</b>, Xidong Mu, Yuanwei Liu, Zhiguo Ding <br/>
+                arXiv preprint arXiv:2201.04547
+            </li>
+
+            <li class="paper">
+                <span class="paper-title">NOMA Inspired Interference Cancellation for Integrated Sensing and Communication</span> <br/>
+                <b>Zhaolin Wang</b>, Xidong Mu, Yuanwei Liu, Zhiguo Ding <br/>
+                IEEE International Conference on Communication (ICC), Seoul, 2022
+            </li>
+
+            <li class="paper">
+                <span class="paper-title">NOMA Empowered Integrated Sensing and Communication</span> <br/>
+                <b>Zhaolin Wang</b>, Yuanwei Liu, Xidong Mu, Zhiguo Ding, Octavia A Dobre <br/>
+                IEEE Communication Letters
+            </li>    
         </ul>
+
     </div>
 
     <div class="block block-border">
